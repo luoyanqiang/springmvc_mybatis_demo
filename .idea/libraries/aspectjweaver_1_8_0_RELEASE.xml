@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="aspectjweaver-1.8.0.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/aspectjweaver-1.8.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/c3p0-0.9.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mchange-commons-java-0.2.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

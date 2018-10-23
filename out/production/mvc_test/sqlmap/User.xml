@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="test">
+    <!--这个文件是用于原始dao开发-->
+
+    <!--resultType指的是单行数据的类型-->
+    <!--#{} 表示一个点位符，相当一个问号 可以是value或者其他名称-->
+    <select id="findUserById" parameterType="int" resultType="cn.fish.ssm.po.User">
+        SELECT * FROM mybatis.user WHERE id = #{id}
+    </select>
+
+
+
+</mapper>
